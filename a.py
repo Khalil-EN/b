@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import io
 from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
-
+SCOPES=['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = "service_account.json"
 PARENT_FOLDER_ID = "1PatV2CaA5HKWg-MYNbaDu75cqXXv4UYe"
 
